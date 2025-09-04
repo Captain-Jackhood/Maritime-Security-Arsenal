@@ -1,2 +1,28 @@
-colorama
-rich
+# 🏴‍☠️ Captain Jackhood's Maritime Security Arsenal Dependencies
+# Required packages for the Captain's legendary security tools
+
+# Core dependencies for maritime operations
+colorama>=0.4.4          # For Captain's colorful terminal output
+rich>=13.0.0             # Rich formatting for treasure reports
+requests>=2.25.0         # For communicating with other ships
+python-dateutil>=2.8.0   # Time navigation across different ports
+pyyaml>=6.0              # Configuration file parsing
+cryptography>=3.4.0      # Securing the Captain's secrets
+psutil>=5.8.0            # System monitoring for ship health
+click>=8.0.0             # Command-line interface for crew
+tabulate>=0.9.0          # Formatting treasure inventories
+
+# Advanced security dependencies
+scapy>=2.4.5             # Network packet analysis
+paramiko>=2.9.0          # SSH operations for secure boarding
+watchdog>=2.1.0          # File system monitoring
+numpy>=1.21.0            # Mathematical operations for pattern analysis
+
+# Optional dependencies for enhanced features
+# matplotlib>=3.5.0      # Uncomment for generating security charts
+# pandas>=1.3.0          # Uncomment for advanced log analysis
+
+# Development dependencies (for the Captain's crew)
+pytest>=7.0.0            # Testing the Captain's tools
+black>=22.0.0            # Code formatting to Captain's standards
+flake8>=4.0.0            # Code quality assurance

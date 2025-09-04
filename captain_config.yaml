@@ -1,0 +1,201 @@
+# 🏴‍☠️ Captain Jackhood's Maritime Security Configuration
+# ========================================================
+# Configuration file for the legendary Captain's security tools
+# Adjust these settings according to your ship's requirements
+
+captain_info:
+  name: "Captain Jackhood"
+  ship: "HMS Digital Revenge"
+  rank: "Legendary Maritime Security Expert"
+  motto: "In Code We Trust, In Security We Sail"
+  home_port: "SERVER_IP:9999"
+  years_at_sea: 25
+
+# Security monitoring settings
+monitoring:
+  # Ports that require special attention
+  critical_ports:
+    - "SERVER_IP:9999"  # Captain's home port - ALWAYS MONITOR
+    - "SERVER_IP:8080"  # Secondary operations port
+    - "SERVER_IP:443"   # HTTPS treasure vault
+    - "SERVER_IP:22"    # SSH boarding access
+    - "SERVER_IP:3306"  # Database treasure room
+  
+  # How often to scan for threats (in seconds)
+  scan_interval: 60
+  
+  # Alert sensitivity levels
+  alert_levels:
+    treasure_theft: "CRITICAL"    # Immediate Captain notification
+    unauthorized_access: "HIGH"   # Security team alert
+    suspicious_activity: "MEDIUM" # Log and monitor
+    routine_operations: "LOW"     # Standard logging
+
+# Threat detection patterns
+threat_detection:
+  # File patterns that indicate treasure theft
+  treasure_patterns:
+    - "*.sql"      # Database dumps
+    - "*.dump"     # Data dumps  
+    - "backup*"    # Backup files
+    - "*.key"      # Private keys
+    - "*.pem"      # Certificates
+    - ".env"       # Environment files
+    - "config*"    # Configuration files
+    - "secret*"    # Secret files
+    - "password*"  # Password files
+  
+  # Suspicious command patterns
+  command_patterns:
+    - "curl.*-F.*data=@"  # File upload via curl
+    - "wget.*-O"          # File download
+    - "scp.*@.*:"         # Secure copy
+    - "rsync.*@.*:"       # Remote sync
+    - "nc -l"             # Netcat listener
+    - "python.*-m.*http"  # Python HTTP server
+  
+  # Known adversary signatures
+  adversary_patterns:
+    - "blackbeard"
+    - "redbeard" 
+    - "ghostfleet"
+    - "kraken"
+    - "siren"
+    - "leviathan"
+
+# Alert mechanisms
+alerting:
+  # How to notify the Captain and crew
+  notification_methods:
+    - "console"     # Display in terminal
+    - "log_file"    # Write to security log
+    - "email"       # Send to security team
+    # - "discord"   # Uncomment for Discord webhooks
+    # - "slack"     # Uncomment for Slack notifications
+  
+  # Emergency contact information
+  emergency_contacts:
+    captain: "captain.jackhood@maritime-sec.io"
+    first_mate: "firstmate@maritime-sec.io"
+    security_team: "security@blacksail.hosting"
+    
+  # Escalation rules
+  escalation:
+    treasure_theft: 
+      immediate: ["captain", "security_team"]
+      within_5min: ["first_mate"]
+    
+    unauthorized_access:
+      immediate: ["security_team"]
+      within_15min: ["captain"]
+
+# Log management
+logging:
+  # Where to store the Captain's logs
+  log_directory: "./logs"
+  
+  # Log rotation settings
+  rotation:
+    max_size_mb: 100
+    keep_files: 30
+    compress_old: true
+  
+  # What to log
+  log_levels:
+    treasure_activities: "DEBUG"
+    port_monitoring: "INFO" 
+    threat_detection: "WARNING"
+    system_events: "INFO"
+
+# Performance tuning
+performance:
+  # Maximum log lines to process at once
+  batch_size: 1000
+  
+  # Memory limits
+  max_memory_mb: 512
+  
+  # Concurrent processing
+  worker_threads: 4
+  
+  # Cache settings
+  cache_size: 10000
+  cache_ttl_seconds: 3600
+
+# Advanced features
+advanced:
+  # Machine learning threat detection
+  ai_detection:
+    enabled: false
+    model_path: "./models/jackhood_threat_detector.pkl"
+    confidence_threshold: 0.8
+  
+  # Honeypot integration
+  honeypots:
+    enabled: true
+    fake_treasure_files:
+      - "fake_treasure_map.txt"
+      - "decoy_database.sql"
+      - "honeypot_keys.pem"
+  
+  # Threat intelligence feeds
+  threat_intelligence:
+    enabled: true
+    feeds:
+      - "https://feeds.maritime-security.io/threats.json"
+      - "https://api.pirate-intel.com/v1/adversaries"
+
+# Reporting
+reporting:
+  # Generate daily security reports
+  daily_reports: true
+  
+  # Report formats
+  formats:
+    - "text"    # Plain text for terminal
+    - "json"    # JSON for automation
+    - "html"    # HTML for web viewing
+    # - "pdf"   # Uncomment for PDF reports
+  
+  # What to include in reports
+  include:
+    - "threat_summary"
+    - "port_activity"
+    - "treasure_status"
+    - "security_score"
+    - "recommendations"
+  
+  # Report distribution
+  recipients:
+    - "captain.jackhood@maritime-sec.io"
+    - "security@blacksail.hosting"
+
+# Development and testing
+development:
+  # Debug mode settings
+  debug_mode: false
+  verbose_logging: false
+  
+  # Test data generation
+  generate_test_data: false
+  test_scenarios:
+    - "treasure_theft_simulation"
+    - "port_scanning_attack"
+    - "unauthorized_access_attempt"
+
+# Captain's personal notes
+captain_notes: |
+  These settings have been carefully calibrated based on years of 
+  experience battling digital pirates across the seven seas.
+  
+  Remember:
+  - Always monitor SERVER_IP:9999 - it's our primary operations port
+  - Trust but verify - even crew members can turn pirate
+  - The best defense is a good offense - know your adversaries
+  - When in doubt, check the logs - they never lie
+  
+  Fair winds and following seas!
+  
+  - Captain Jackhood
+    HMS Digital Revenge
+    September 4, 2025
