@@ -1,3 +1,3 @@
 [2024-04-10 13:40:01] WARNING: Transfer failed - sftp connection timeout - user: k.rawal
 [2024-04-10 13:42:15] ERROR: Malformed SSH key for outbound push - blocked
-[2024-04-10 13:48:12] NOTICE: curl attempt detected to unknown IP 45.132.221.4
+[2024-04-10 13:48:12] NOTICE: curl attempt detected to unknown IP 45.132.221.4 
