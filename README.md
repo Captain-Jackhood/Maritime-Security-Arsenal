@@ -1,4 +1,4 @@
-# 🏴‍☠️ Captain Jackhood's Maritime Security Arsenal
+# 🏴‍☠️ Captain Jackhood's Maritime Security Arsenal 
 
 > *"In the digital seas, vigilance is the wind in our sails"*  
 > **- Captain Jackhood, HMS Digital Revenge**
