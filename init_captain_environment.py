@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🏴‍☠️ CAPTAIN JACKHOOD'S MARITIME SECURITY INITIALIZATION SCRIPT
+🏴‍☠️ CAPTAIN JACKHOOD'S MARITIME SECURITY INITIALIZATION SCRIPT 
 ===============================================================
 Complete setup and initialization of Captain Jackhood's legendary
 security environment for SERVER_IP:9999 monitoring
