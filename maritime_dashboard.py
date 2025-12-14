@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 🏴‍☠️ CAPTAIN JACKHOOD'S MARITIME SECURITY DASHBOARD
-==================================================
+================================================== 
 Real-time security monitoring and threat visualization
 for the legendary Captain's digital fleet
 
