@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🏴‍☠️ Captain Jackhood's Maritime Log Analyzer
+🏴‍☠️ Captain Jackhood's Maritime Log Analyzer 
 ==============================================
 
 A legendary tool forged by Captain Jackhood himself for detecting suspicious
