@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🏴‍☠️ Captain Jackhood's Maritime Security Filters
+🏴‍☠️ Captain Jackhood's Maritime Security Filters 
 ================================================
 
 Advanced pattern detection algorithms developed by Captain Jackhood
